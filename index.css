@@ -1,4 +1,21 @@
-.container {
-  text-align: center;
-  padding: 20px;
+.container{
+  padding: 0 15% 0 15%;
+}
+
+.row-list:nth-child(odd) {
+  background: #EAEAEA;
+}
+
+.row-list button {
+  margin: 0;
+  text-align: right;
+}
+
+p.todo-item {
+  text-align: left;
+  padding-left: 10px;
+}
+
+#to-do, form, button {
+  font-size: 18px;
 }

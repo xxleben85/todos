@@ -6,6 +6,7 @@
     <title>To Do List</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="index.css" rel="stylesheet" type="text/css" />
     <script src="index.js"></script>
   </head>
@@ -13,14 +14,17 @@
 <body>
 
   <div class="container">
-    <div class="row">
-      <h1>To Do List</h1>
-      <div id="to-do"></div>
-      <form id="create-task">
-        <input id="new-task-content" type="text" placeholder="Add new task" required/>
-        <button class="btn btn-primary">Create</button>
-      </form>
+    <h1 class="pt-3"><b>To Do List</b></h1>
+
+
+    <div class="py-3" id="to-do">
     </div>
+
+    <form id="create-task">
+      <input id="new-task-content" type="text" placeholder="Add new task" required/>
+      <button class="btn btn-primary">Create</button>
+    </form>
+
   </div>
 
 
