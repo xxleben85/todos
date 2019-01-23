@@ -4,6 +4,15 @@
 
 .row-list:nth-child(odd) {
   background: #EAEAEA;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+.row-list:nth-child(even) {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
 }
 
 .row-list button {
